@@ -7,24 +7,17 @@ a python framework (unorganized) for make python easier to work with.
 .
 ├── pytooler
 │   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-314.pyc
-│   │   ├── __utility__.cpython-314.pyc
-│   │   └── color.cpython-314.pyc
 │   ├── __utility__.py
 │   └── color.py
 └── verse
     ├── __init__.py
-    ├── __pycache__
-    │   ├── __init__.cpython-314.pyc
-    │   └── crux.cpython-314.pyc
     ├── crux.py
     └── test.py
   ^ folder name: abyssal, path = /Users/_______/abyssal
   _______ = your username
   ## read the GUIDE.md to find out how to use this.
 ```
-### sample code:
+### sample code: (if path not in /abyssal/___)
 ```text
 from abyssal.pytooler import __utility__ as u,  color as c
 from abyssal.verse import crux
@@ -37,5 +30,9 @@ listx = [1,2,3,4,5,6,7,8,9,10]
 u.Programm.binary_search(listx, 7)
 print(f"{c.RED} hi {c.RESET}")
 ```
-
-
+### sample code: (if path in /abyssal/__)
+```text
+import getpass, sys
+username = getpass.getuser()
+sys.path.append(f"/Users/{username}/abyssal/")
+```
