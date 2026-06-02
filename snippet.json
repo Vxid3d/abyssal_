@@ -1,0 +1,57 @@
+// idk where to put my code snippets, they are useful tho, plus i need the commits
+{
+	"Print F string": {
+		"prefix": "Pf",
+		"body": [
+			"print(f\"$1{$2}\")",
+			"$3"
+		],
+		"description": "makes a print function for a f string"
+	},
+	"For loop": {
+		"prefix": "forl",
+		"body": [
+			"for i in range($1):",
+			"    $2",
+			"$3"
+		],
+		"description": "makes a for loop"
+	},
+	"Class": {
+		"prefix": "clasS",
+		"body": [
+			"class $1:",
+			"    def $2(self$3):",
+			"        $4",
+			"$5"
+		],
+		"description": "makes a class"
+	},
+	"Static class": {
+		"prefix": "Sclass",
+		"body": [
+			"class $1:",
+			"    @staticmethod",
+			"    def $2($3):",
+			"        $4",
+			"$5"
+		],
+		"description": "makes a class for static functions"
+	},
+	"input": {
+		"prefix": "inpuT",
+		"body": [
+			"input_val = input(\"$1: \")",
+			"$2"
+		],
+		"description": "makes a input()"
+	},
+	"terminal command runer": {
+		"prefix": "runer",
+		"body": [
+			"subprocess.run(\"$1\" shell=True)",
+			"$2"
+		],
+		"description": "runs a terminal command in the shell"
+	}
+}
