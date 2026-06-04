@@ -26,7 +26,7 @@
 a python framework (unorganized) for make python easier to work with.
 # Setup
 ## this is the format you want to format your code (from the repo) in.
-```text
+```bash
 .
 ├── pytooler
 │   ├── __init__.py
@@ -41,7 +41,7 @@ a python framework (unorganized) for make python easier to work with.
   ## read the GUIDE.md to find out how to use this.
 ```
 ### sample code: (if path not in /abyssal/___)
-```text
+```Python
 from abyssal.pytooler import __utility__ as u,  color as c
 from abyssal.verse import crux
 crux.Spam.cli_spam(
@@ -54,7 +54,7 @@ u.binary_search(listx, 7)
 print(f"{c.RED} hi {c.RESET}")
 ```
 ### sample code: (if path in /abyssal/__)
-```text
+```Python
 import getpass, sys
 username = getpass.getuser()
 sys.path.append(f"/Users/{username}/abyssal/")
