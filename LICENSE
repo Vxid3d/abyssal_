@@ -14,6 +14,8 @@ All intellectual property rights remain exclusively with the licensor.
 Whenever the code is featured in public videos or promotions, you must provide appropriate attribution to the original creator.
 
 4. DISCLAIMER OF WARRANTY
-The Software is provided "as is," without warranty of any kind, express or implied.
+The software is provided "as is," without warranty of any kind, express or implied.
 
-NOTE; If you want to give a suggestion or make a fix to the code, you may submit a issue or a pull request respectively.
+NOTE; If you want to give a suggestion or make a fix to the code, you may submit a issue or a pull request respectively. If you want to make a fork of this repository, you must:
+- Not remove the retribution that Github gives on the creation of a repo.
+- Add explicit credit on the README.MD file for the repo.
