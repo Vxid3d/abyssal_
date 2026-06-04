@@ -69,3 +69,4 @@ listx = [1,2,3,4,5,6,7,8,9,10]
 u.binary_search(listx, 7)
 print(f"{c.RED} hi {c.RESET}")
 ```
+Guide.md link: https://github.com/Vxid3d/abyssal_/blob/main/GUIDE.md
