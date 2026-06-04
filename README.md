@@ -50,7 +50,7 @@ crux.Spam.cli_spam(
     "hi"
     )
 listx = [1,2,3,4,5,6,7,8,9,10]
-u.Programm.binary_search(listx, 7)
+u.binary_search(listx, 7)
 print(f"{c.RED} hi {c.RESET}")
 ```
 ### sample code: (if path in /abyssal/__)
@@ -58,4 +58,14 @@ print(f"{c.RED} hi {c.RESET}")
 import getpass, sys
 username = getpass.getuser()
 sys.path.append(f"/Users/{username}/abyssal/")
+from pytooler import __utility__ as u,  color as c
+from verse import crux
+crux.Spam.cli_spam(
+    100,
+    100,
+    "hi"
+    )
+listx = [1,2,3,4,5,6,7,8,9,10]
+u.binary_search(listx, 7)
+print(f"{c.RED} hi {c.RESET}")
 ```
