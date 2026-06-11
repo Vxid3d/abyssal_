@@ -1,3 +1,22 @@
+# This project has migrated to
+https://github.com/Vortisphere/abyssal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```zsh
                                                                        $$$$$             $$$$$                                                                        
                       bbbbbbbb                                         $:::$             $:::$                                                                        
